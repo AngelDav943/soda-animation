@@ -136,6 +136,7 @@ section article.apple {
 
     background-color: #ffb2b2;
 
+    pointer-events: none;
     animation: button 2s ease-in-out infinite;
 }
 
@@ -164,6 +165,8 @@ body#p3 .buttons button#right::before {
 article img {
     height: 200px;
     animation: fruit-float 6s ease-in-out infinite;
+
+    filter: drop-shadow(0px 200px 10px #0000001f);
 }
 
 article img:nth-child(1) {
